@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	jwtgen "github.com/dgrijalva/jwt-go"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
 
 func resourceHashedToken() *schema.Resource {
